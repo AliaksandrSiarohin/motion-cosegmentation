@@ -1,6 +1,6 @@
-# Motion Supervised co-part Segmentation
+# Motion Supervised co-part Segmentation | [Arxiv]() | [YouTube video](https://www.youtube.com/watch?v=RJ4Nj1wV5iA)
 
-This repository contains the source code for the paper [Motion Supervised co-part Segmentation]() by Aliaksandr Siarohin<sup>\*</sup>, Subhankar Roy<sup>\*</sup>, [Stéphane Lathuilière](https://stelat.eu/), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/).
+This repository contains the source code for the paper [Motion Supervised co-part Segmentation]() by Aliaksandr Siarohin<sup>\*</sup>, [Subhankar Roy<sup>\*</sup>](https://scholar.google.com/citations?user=YfzgrDYAAAAJ&hl=en), [Stéphane Lathuilière](https://stelat.eu/), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/).
 
 <sup>\*</sup> - denotes equal contribution
 
