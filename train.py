@@ -29,9 +29,11 @@ def train(config, reconstruction_module, segmentation_module, checkpoint, log_di
                                                        lr=train_params['lr_reconstruction_module'], betas=(0.5, 0.999))
     optimizer_segmentation_module = torch.optim.Adam(segmentation_module.parameters(),
                                                      lr=train_params['lr_segmentation_module'], betas=(0.5, 0.999))
-
-    start_epoch = Logger.load_cpk(checkpoint, reconstruction_module, segmentation_module,
+    if checkpoint is not None:
+        start_epoch = Logger.load_cpk(checkpoint, reconstruction_module, segmentation_module,
                     optimizer_reconstruction_module, optimizer_segmentation_module)
+    else:
+        start_epoch = 0
 
     if 'num_repeats' in train_params or train_params['num_repeats'] != 1:
         dataset = DatasetRepeater(dataset, train_params['num_repeats'])
