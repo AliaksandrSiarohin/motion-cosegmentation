@@ -89,11 +89,11 @@ The result will be stored in ```result.mp4```.
 
 * For swaping either target or source segmentation mask can be used (specify ```--use_source_segmentation``` for using source segmentation mask).
 
-* For the reference we also provide fully-supervised segmentation. For fully-supervised add --supervised option. And run
+* For the reference we also provide fully-supervised segmentation. For fully-supervised add ```--supervised``` option. And run
 ```git clone https://github.com/AliaksandrSiarohin/face-makeup.PyTorch face_parsing```
 which is a fork of @zllrunning. 
 
-* Also for the reference we provide [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model) based alignment, use ```--first-order-motion-model``` and the correspoinding checkpoint. This allignment can only be used along with ```--suprevised``` option.
+* Also for the reference we provide [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model) based alignment, use ```--first-order-motion-model``` and the correspoinding checkpoint. This allignment can only be used along with ```--supervised``` option.
 
 
 ### Colab Demo
