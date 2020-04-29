@@ -112,6 +112,16 @@ Checkpoints will be saved to this folder. To check the loss values during traini
 You can also check training data reconstructions in the ```train-vis``` subfolder.
 By default the batch size is tunned to run on 1 Tesla-p100 gpu, you can change it in the train_params in the corresponding ```.yaml``` file.
 
+### Evaluation
+We use two metrics to evaluate our model: 1) landmark regression MAE; and 2) Foreground segmentation IoU. 
+
+1) For computing the MAE download eval_images.tar.gz from [google-drive-eval](https://drive.google.com/drive/folders/18l3W4tkYWnpPcwMMhy07Tc6R7Ky_ouoJ?usp=sharing) and use the following command:
+
+```
+CUDA_VISIBLE_DEVICES=0 python evaluate.py --config config/dataset_name.yaml --device_ids 0 --root_dir path-to-root-folder-of-dataset --checkpoint_path dataset-name.cpk.pth.tar
+```
+
+2) Coming soon...
 
 ### Datasets
 
