@@ -93,7 +93,7 @@ The result will be stored in ```result.mp4```.
 ```git clone https://github.com/AliaksandrSiarohin/face-makeup.PyTorch face_parsing```
 which is a fork of @zllrunning. 
 
-* Also for the reference we provide [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model) based alignment, use ```--first-order-motion-model``` and the correspoinding checkpoint. This allignment can only be used along with ```--supervised``` option.
+* Also for the reference we provide [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-order-model) based alignment, use ```--first_order_motion_model``` and the correspoinding checkpoint. This allignment can only be used along with ```--supervised``` option.
 
 
 ### Colab Demo
