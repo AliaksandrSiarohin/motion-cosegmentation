@@ -101,7 +101,6 @@ which is a fork of @zllrunning.
 We prepare a special demo for the google-colab, see: ```part_swap.ipynb```.
 
 ### Training
-**Note: It is important to use pytorch==1.0.0 for training. Higher versions of pytorch have strange bilinear warping behavior, because of it model diverge.**
 
 Model training consist in finetuning the First Order Model checkpoint (they can be downloaded from [google-drive](https://drive.google.com/open?id=1PyQJmkdCsAkOYwUyaj_l-l0as-iLDgeH) or [yandex-disk](https://yadi.sk/d/lEw8uRm140L_eQ)). Use the following command for training:
 ```
